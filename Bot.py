@@ -38,7 +38,7 @@ async def on_message(message):
             try:
                 # Call Gemini API (Using Gemini 2.5 Flash for fast response times)
                 response = gemini_client.models.generate_content(
-                    model='gemini-2.5-flash',
+                    model='gemini-3.6-flash',
                     contents=prompt,
                 )
                 
